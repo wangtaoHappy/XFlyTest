@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931B00A21F43F53100BA7FCB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00A11F43F53100BA7FCB /* libz.tbd */; };
+		931B00A41F43F54E00BA7FCB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00A31F43F54E00BA7FCB /* AVFoundation.framework */; };
+		931B00A61F43F55700BA7FCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00A51F43F55700BA7FCB /* SystemConfiguration.framework */; };
+		931B00A81F43F56500BA7FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00A71F43F56500BA7FCB /* Foundation.framework */; };
+		931B00AA1F43F57A00BA7FCB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00A91F43F57A00BA7FCB /* CoreTelephony.framework */; };
+		931B00AC1F43F5A000BA7FCB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00AB1F43F5A000BA7FCB /* AudioToolbox.framework */; };
+		931B00AE1F43F5AD00BA7FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00AD1F43F5AD00BA7FCB /* UIKit.framework */; };
+		931B00B01F43F5BA00BA7FCB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00AF1F43F5BA00BA7FCB /* CoreLocation.framework */; };
+		931B00B21F43F5C100BA7FCB /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00B11F43F5C100BA7FCB /* Contacts.framework */; };
+		931B00B41F43F5C900BA7FCB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00B31F43F5C900BA7FCB /* AddressBook.framework */; };
+		931B00B61F43F5D000BA7FCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00B51F43F5D000BA7FCB /* QuartzCore.framework */; };
+		931B00B81F43F5E400BA7FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00B71F43F5E400BA7FCB /* CoreGraphics.framework */; };
+		931B00BA1F43F5F300BA7FCB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00B91F43F5F300BA7FCB /* libc++.tbd */; };
+		931B00C21F44030600BA7FCB /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B00C11F44030600BA7FCB /* iflyMSC.framework */; };
+		931B00F71F4AB73E00BA7FCB /* data in Resources */ = {isa = PBXBuildFile; fileRef = 931B00F61F4AB73E00BA7FCB /* data */; };
+		931B00F91F4AB74900BA7FCB /* aitalkResource in Resources */ = {isa = PBXBuildFile; fileRef = 931B00F81F4AB74900BA7FCB /* aitalkResource */; };
 		93999DAC1F43ED57006499BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93999DAB1F43ED57006499BB /* main.m */; };
 		93999DAF1F43ED57006499BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93999DAE1F43ED57006499BB /* AppDelegate.m */; };
 		93999DB21F43ED57006499BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93999DB11F43ED57006499BB /* ViewController.m */; };
@@ -16,6 +32,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931B00A11F43F53100BA7FCB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		931B00A31F43F54E00BA7FCB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		931B00A51F43F55700BA7FCB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		931B00A71F43F56500BA7FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		931B00A91F43F57A00BA7FCB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		931B00AB1F43F5A000BA7FCB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		931B00AD1F43F5AD00BA7FCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		931B00AF1F43F5BA00BA7FCB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		931B00B11F43F5C100BA7FCB /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		931B00B31F43F5C900BA7FCB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		931B00B51F43F5D000BA7FCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		931B00B71F43F5E400BA7FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		931B00B91F43F5F300BA7FCB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		931B00C11F44030600BA7FCB /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		931B00F61F4AB73E00BA7FCB /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		931B00F81F4AB74900BA7FCB /* aitalkResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aitalkResource; sourceTree = "<group>"; };
 		93999DA71F43ED57006499BB /* XFlyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFlyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93999DAB1F43ED57006499BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93999DAD1F43ED57006499BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +65,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931B00BA1F43F5F300BA7FCB /* libc++.tbd in Frameworks */,
+				931B00B81F43F5E400BA7FCB /* CoreGraphics.framework in Frameworks */,
+				931B00B61F43F5D000BA7FCB /* QuartzCore.framework in Frameworks */,
+				931B00B41F43F5C900BA7FCB /* AddressBook.framework in Frameworks */,
+				931B00B21F43F5C100BA7FCB /* Contacts.framework in Frameworks */,
+				931B00B01F43F5BA00BA7FCB /* CoreLocation.framework in Frameworks */,
+				931B00C21F44030600BA7FCB /* iflyMSC.framework in Frameworks */,
+				931B00AE1F43F5AD00BA7FCB /* UIKit.framework in Frameworks */,
+				931B00AC1F43F5A000BA7FCB /* AudioToolbox.framework in Frameworks */,
+				931B00AA1F43F57A00BA7FCB /* CoreTelephony.framework in Frameworks */,
+				931B00A81F43F56500BA7FCB /* Foundation.framework in Frameworks */,
+				931B00A61F43F55700BA7FCB /* SystemConfiguration.framework in Frameworks */,
+				931B00A41F43F54E00BA7FCB /* AVFoundation.framework in Frameworks */,
+				931B00A21F43F53100BA7FCB /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		931B009E1F43F47B00BA7FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931B00C11F44030600BA7FCB /* iflyMSC.framework */,
+				931B00B91F43F5F300BA7FCB /* libc++.tbd */,
+				931B00B71F43F5E400BA7FCB /* CoreGraphics.framework */,
+				931B00B51F43F5D000BA7FCB /* QuartzCore.framework */,
+				931B00B31F43F5C900BA7FCB /* AddressBook.framework */,
+				931B00B11F43F5C100BA7FCB /* Contacts.framework */,
+				931B00AF1F43F5BA00BA7FCB /* CoreLocation.framework */,
+				931B00AD1F43F5AD00BA7FCB /* UIKit.framework */,
+				931B00AB1F43F5A000BA7FCB /* AudioToolbox.framework */,
+				931B00A91F43F57A00BA7FCB /* CoreTelephony.framework */,
+				931B00A71F43F56500BA7FCB /* Foundation.framework */,
+				931B00A51F43F55700BA7FCB /* SystemConfiguration.framework */,
+				931B00A31F43F54E00BA7FCB /* AVFoundation.framework */,
+				931B00A11F43F53100BA7FCB /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93999D9E1F43ED57006499BB = {
 			isa = PBXGroup;
 			children = (
+				931B00F81F4AB74900BA7FCB /* aitalkResource */,
 				93999DA91F43ED57006499BB /* XFlyTest */,
 				93999DA81F43ED57006499BB /* Products */,
+				931B009E1F43F47B00BA7FCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +131,7 @@
 				93999DAE1F43ED57006499BB /* AppDelegate.m */,
 				93999DB01F43ED57006499BB /* ViewController.h */,
 				93999DB11F43ED57006499BB /* ViewController.m */,
+				931B00F61F4AB73E00BA7FCB /* data */,
 				93999DB31F43ED57006499BB /* Main.storyboard */,
 				93999DB61F43ED57006499BB /* Assets.xcassets */,
 				93999DB81F43ED57006499BB /* LaunchScreen.storyboard */,
@@ -139,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93999DBA1F43ED57006499BB /* LaunchScreen.storyboard in Resources */,
+				931B00F91F4AB74900BA7FCB /* aitalkResource in Resources */,
 				93999DB71F43ED57006499BB /* Assets.xcassets in Resources */,
+				931B00F71F4AB73E00BA7FCB /* data in Resources */,
 				93999DB51F43ED57006499BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +278,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -221,6 +294,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -255,6 +329,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -264,6 +339,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -276,8 +352,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KN6539LSM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = XFlyTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.XFlyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -288,8 +367,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KN6539LSM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = XFlyTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.XFlyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -314,6 +396,7 @@
 				93999DC01F43ED57006499BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,7 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar search;
+!slot <searchName>;
+!start <searchStart>;
+<searchStart>:[<searchName>];
+<searchName>:识别|幻视|扫描|清空;
+
